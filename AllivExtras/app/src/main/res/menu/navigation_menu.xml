@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigation_menu">
+	
+	<group android:checkableBehavior="single">
+
+	<item
+		android:id="@+id/item_status_bar"
+		android:icon="@drawable/ic_statusbar"
+		android:title="Status Bar"
+		/>
+	
+	<item
+		android:id="@+id/item_notification_drawer"
+		android:icon="@drawable/ic_multishit"
+		android:title="Notification Drawer"/>
+	
+	<item
+		android:id="@+id/item_button"
+		android:icon="@drawable/ic_recents"
+		android:title="Button Settings"/>
+	
+	<item
+		android:id="@+id/item_system"
+		android:icon="@drawable/ic_notif"
+		android:title="System Settings"/>
+	
+	<item
+		android:id="@+id/item_misc"
+		android:icon="@drawable/ic_various_shit"
+		android:title="Misc Settings"/>
+	
+	<item
+		android:id="@+id/item_coloring"
+		android:icon="@drawable/ic_opacity"
+		android:title="Coloring Settings"/>
+
+	<item
+		android:id="@+id/item_about"
+		android:icon="@drawable/ic_about"
+		android:title="About ROM"
+		android:checked="true"/>
+	
+	</group>
+
+
+
+</menu>

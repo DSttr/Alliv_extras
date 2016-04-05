@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Worst colors"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings.alliv.AllivFeature.AllivColoringWorst">
+	<SwitchPreference
+        android:key="alliv_enable_color"
+        android:title="Alliv Ebable Color" />
+    <PreferenceCategory
+		android:title="Statusbar" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:title="Alliv logo color"
+		android:key="alliv_logo"
+		android:summary="Select logo color"
+		android:defaultValue="0xffffffff"
+		android:dependency="alliv_enable_color"/>
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:title="Signal icon"
+		android:key="alliv_status_bar_signal"
+		android:summary="@string/alliv_icon_color"
+		android:defaultValue="0xffffffff"
+		android:dependency="alliv_enable_color"
+		alphaSlider="true"
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:title="Signal In Out"
+		android:key="alliv_in_out"
+		android:summary="@string/alliv_icon_color" 
+		android:defaultValue="0xffffffff"
+		android:dependency="alliv_enable_color"
+		alphaSlider="true"
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:title="Airplane icon"
+		android:key="alliv_airplane"
+		android:summary="@string/alliv_icon_color"
+		android:defaultValue="0xffffffff"
+		android:dependency="alliv_enable_color"
+		alphaSlider="true"
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:dependency="alliv_enable_color"
+		android:title="Wifi icon"
+		android:key="alliv_wifi_stat"
+		android:summary="@string/alliv_icon_color"
+		android:defaultValue="0xffffffff"
+		alphaSlider="true"
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:dependency="alliv_enable_color"
+		android:title="Notification icon"
+		android:key="illusiondev_notif_color"
+		android:summary="@string/alliv_icon_color"
+		android:defaultValue="0xffffffff"
+		alphaSlider="true"
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:dependency="alliv_enable_color"
+		android:title="Battery percentage"
+		android:key="illusiondev_battery_persen_txt"
+		android:summary="@string/alliv_text_color"
+		android:defaultValue="0xffffffff"
+		alphaSlider="true"
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:dependency="alliv_enable_color"
+		android:title="Ticker"
+		android:key="illusiondev_ticker_txt"
+		android:summary="@string/alliv_text_color"
+		android:defaultValue="0xffffffff"
+		alphaSlider="true"
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:dependency="alliv_enable_color"
+		android:title="Navigationbar icon"
+		android:key="illusiondev_nav_icon"
+		android:summary="@string/alliv_icon_color"
+		android:defaultValue="0xffffffff"
+		alphaSlider="true"
+		hexValue="true" />
+    <PreferenceCategory android:title="Expanded" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:title="Header collapsed color"
+		android:key="illusiondev_header_collapsed"
+		android:summary="@string/alliv_background_color"
+		android:defaultValue="0xff5366d3"
+		android:dependency="alliv_enable_color"
+		alphaSlider="true"
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:title="Header quicksettings"
+		android:key="illusiondev_header_quicksettings"
+		android:summary="@string/alliv_background_color"
+		android:dependency="alliv_enable_color"
+		android:defaultValue="0xff5366d3"
+		alphaSlider="true"
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:title="Quicksettings"
+		android:key="illusiondev_quicksettings"
+		android:summary="@string/alliv_background_color"
+		android:defaultValue="0xffffffff"
+		android:dependency="alliv_enable_color"
+		alphaSlider="true"
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:title="Toolbar"
+		android:key="illusiondev_toolbar"
+		android:summary="@string/alliv_background_color"
+		android:defaultValue="0xff5366d3"
+		android:dependency="alliv_enable_color"
+		alphaSlider="true"
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:title="Clock"
+		android:key="illusiondev_header_clock"
+		android:summary="@string/alliv_text_color"
+		android:defaultValue="0xffffffff"
+		android:dependency="alliv_enable_color"
+		alphaSlider="true"
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:title="Date"
+		android:key="illusiondev_header_date"
+		android:summary="@string/alliv_text_color"
+		android:defaultValue="0xffebebeb"
+		android:dependency="alliv_enable_color"
+		alphaSlider="true"
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:title="Battery percentage"
+		android:key="illusiondev_battery_txt"
+		android:summary="@string/alliv_text_color"
+		android:defaultValue="0xffffffff"
+		android:dependency="alliv_enable_color"
+		alphaSlider="true"
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:title="Icon header"
+		android:key="illusiondev_icon_header"
+		android:summary="@string/alliv_icon_color"
+		android:defaultValue="0xffffffff"
+		android:dependency="alliv_enable_color"
+		alphaSlider="true" 
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:title="Battery circle" 
+		android:key="illusiondev_header_battery" 
+		android:summary="@string/alliv_icon_color" 
+		android:defaultValue="0xffffffff" 
+		android:dependency="alliv_enable_color"
+		alphaSlider="true" 
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference 
+		android:title="Clear all" 
+		android:key="illusiondev_notif_clear" 
+		android:summary="@string/alliv_icon_color" 
+		android:defaultValue="0xffffffff" 
+		android:dependency="alliv_enable_color"
+		alphaSlider="true" 
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference 
+		android:title="Notification title" 
+		android:key="illusiondev_notif_txt" 
+		android:summary="@string/alliv_text_color" 
+		android:defaultValue="0xffffffff" 
+		android:dependency="alliv_enable_color"
+		alphaSlider="true" 
+		hexValue="true" />
+    <PreferenceCategory
+		android:title="Quicksettings" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:title="Wifi qs icon"
+		android:key="illusiondev_wifi_qs_icon"
+		android:summary="@string/alliv_icon_color"
+		android:defaultValue="0xff5366d3"
+		android:dependency="alliv_enable_color"
+		alphaSlider="true"
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:title="Bluetooth qs icon"
+		android:key="illusiondev_bluetooth_qs_icon"
+		android:summary="@string/alliv_icon_color"
+		android:defaultValue="0xff5366d3"
+		android:dependency="alliv_enable_color"
+		alphaSlider="true"
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:title="Wifi qs txt"
+		android:key="illusiondev_wifi_qs_txt"
+		android:summary="@string/alliv_text_color"
+		android:defaultValue="0xff767677"
+		android:dependency="alliv_enable_color"
+		alphaSlider="true"
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:title="Bluetooth qs txt"
+		android:key="illusiondev_bluetooth_qs_txt"
+		android:summary="@string/alliv_text_color"
+		android:defaultValue="0xff767677"
+		android:dependency="alliv_enable_color"
+		alphaSlider="true"
+		hexValue="true" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:title="Qs more"
+		android:key="illusiondev_qs_more"
+		android:summary="@string/alliv_icon_color"
+		android:defaultValue="0xfffd6a89"
+		android:dependency="alliv_enable_color"
+		alphaSlider="true"
+		hexValue="true" />
+</PreferenceScreen>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ROM Control</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="drawer_open">Drawer opened</string>
+    <string name="drawer_close">Drawer closed</string>
+	<string name="about_fragment_title">About</string>
+	<string name="text_about">This is sample app created using design support library by google.</string>
+
+	<!-- TODO: Remove or change this placeholder text -->
+    <string name="alliv_icon_color">Chose Color</string>
+	<string name="alliv_text_color">Chose Color</string>
+	<string name="alliv_background_color">Chose Color</string>
+	<string name="reset_message">Reset all entries to default?</string>
+	<string name="reset_android">Android</string>
+	<string name="reset">Reset</string>
+	<string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="default_string">Default</string>
+	
+	
+	<string name="select_picture">Select Picture</string>
+    <string name="no_picture">No Picture</string>
+    <string name="went_wrong">Something went wrong!</string>
+	
+	<!-- Begin of preference strings-->
+	<string name="status_bar_change_clock_to_red_title">Change Clock to Red</string>
+    <string name="status_bar_change_clock_to_red_summary">Changes the status bar clock to red !!</string>
+
+    <string name="status_bar_change_battery_icons_title">Change Battery Icons</string>
+    <string name="status_bar_change_battery_icons_summary">Changes the status bar battery icons !!</string>
+    <string name="status_bar_change_battery_icons_option_0">Default</string>
+    <string name="status_bar_change_battery_icons_option_1">Option 1</string>
+	<string name="status_bar_fragment_title">Status Bar Settings</string>
+	<string name="system_fragment_title">System Settings</string>
+	<string name="button_fragment_title">Button Settings</string>
+    <string name="misc_fragment_title">Misc Settings</string>
+    
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="arrow_right" translatable="false">></string>
+    <string name="arrow_down" translatable="false">^</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
+	
+
+</resources>
+

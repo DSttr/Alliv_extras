@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.ds.alliv.control.fragment.AboutFragment">
+
+
+    <!--android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/about_card_margin"
+        android:layout_marginRight="@dimen/about_card_margin"
+        android:layout_marginTop="@dimen/about_card_margin_top_bottom"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="2dp"-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="22sp"
+                        android:text="Android Illusion Dev™"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="v1.0"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_about"
+                android:autoLink="web"
+                android:textColorLink="@color/accent"
+                android:padding="16dp"/>
+
+
+        </LinearLayout>
+
+    <!--/android.support.v7.widget.CardView-->
+	
+	<!--android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/about_card_margin"
+        android:layout_marginRight="@dimen/about_card_margin"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="2dp"-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:text="FU AD" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Develover/Founder" />
+
+        </LinearLayout>
+
+    <!--/android.support.v7.widget.CardView-->
+	
+	<!--android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/about_card_margin"
+        android:layout_marginRight="@dimen/about_card_margin"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="2dp"-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:text="Diki Satria" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Developer" />
+
+        </LinearLayout>
+
+    <!--/android.support.v7.widget.CardView-->
+
+    <!--android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/about_card_margin"
+        android:layout_marginRight="@dimen/about_card_margin"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="2dp"-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:text="Copyright 2016™" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sagar Viradiya " />
+			
+			<TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Diki Satria (DSttr)" />
+
+        </LinearLayout>
+
+    <!--/android.support.v7.widget.CardView-->
+
+</LinearLayout>

@@ -38,7 +38,7 @@
 	<item
 		android:id="@+id/item_about"
 		android:icon="@drawable/ic_about"
-		android:title="About ROM"
+		android:title="About Alliv ROM"
 		android:checked="true"/>
 	
 	</group>

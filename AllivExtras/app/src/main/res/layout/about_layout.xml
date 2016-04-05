@@ -9,16 +9,6 @@
     tools:context="in.ds.alliv.control.fragment.AboutFragment">
 
 
-    <!--android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/about_card_margin"
-        android:layout_marginRight="@dimen/about_card_margin"
-        android:layout_marginTop="@dimen/about_card_margin_top_bottom"
-        card_view:cardElevation="@dimen/card_elevation"
-        card_view:cardUseCompatPadding="true"
-        card_view:cardCornerRadius="2dp"-->
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -70,16 +60,9 @@
 
         </LinearLayout>
 
-    <!--/android.support.v7.widget.CardView-->
+    
 	
-	<!--android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/about_card_margin"
-        android:layout_marginRight="@dimen/about_card_margin"
-        card_view:cardElevation="@dimen/card_elevation"
-        card_view:cardUseCompatPadding="true"
-        card_view:cardCornerRadius="2dp"-->
+	
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -101,16 +84,9 @@
 
         </LinearLayout>
 
-    <!--/android.support.v7.widget.CardView-->
+    
 	
-	<!--android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/about_card_margin"
-        android:layout_marginRight="@dimen/about_card_margin"
-        card_view:cardElevation="@dimen/card_elevation"
-        card_view:cardUseCompatPadding="true"
-        card_view:cardCornerRadius="2dp"-->
+	
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -132,16 +108,9 @@
 
         </LinearLayout>
 
-    <!--/android.support.v7.widget.CardView-->
+    
 
-    <!--android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/about_card_margin"
-        android:layout_marginRight="@dimen/about_card_margin"
-        card_view:cardElevation="@dimen/card_elevation"
-        card_view:cardUseCompatPadding="true"
-        card_view:cardCornerRadius="2dp"-->
+    
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -168,6 +137,6 @@
 
         </LinearLayout>
 
-    <!--/android.support.v7.widget.CardView-->
+    
 
 </LinearLayout>
